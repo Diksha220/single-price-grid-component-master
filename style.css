@@ -1,112 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
-:root {
-
-    background-color: hsl(204, 43%, 93%);
-}
-
 body {
-    width: 100%;
-    height: 100%;
     margin: 0%;
-    font-size: 40%;
     font-family: 'Karla', sans-serif;
 }
 
-.container {
-    display: flex;
-    margin: 4% auto 1%;
-    width: 50%;
-    height: 100%;
+.container { 
+    margin: 0%;
     flex-direction: column;
-    
 }
 
 .container2 {
     display: flex;
     flex-direction: row;
     color: #fff;
-    
-}
-
-.box1 h2 {
-    color: hsl(179, 62%, 43%);
-    font-weight: 700;
-    font-size: 18px;
-}
-
-.box1 h5 {
-
-    color: hsl(71, 73%, 54%);
-    font-weight: 700;
-    font-size: 13.5px;
+    max-height: 50%;
 }
 
 .box1 {
-    padding: 1% 6% 4%;
+
+    display: flex;
+    flex-direction: column;
+    max-height: 50%;
+    padding: 0% 6% 2%;
     background-color: white;
     color: grey;
-    font-size: 12px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    font-size: 2.2rem;
+}
+
+.box1 h1 {
+    line-height: 0.65;
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.box1 h2 {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size: 2.49rem;
+}
+
+.box2 {
+    padding: 0% 6% 2%;
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    line-height: 0.5;
 }
 
 .box2 h5 {
 
     font-weight: 700;
-    font-size: 14px;
+    font-size: 2.4rem;
 }
 
-.box2 h3 {
-    /* font-size: x-large; */
+.box2 h {
+     
     display: inline;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .box2 .faded {
-    font-size: 10px;
+    font-size: 2rem;
     color: rgba(255, 255, 255, 0.47);
 }
-.box2 p{
-    font-size: 11.3px;
+
+.box2 p {
+    font-size: 2rem;
 }
-.box2 {
-    padding: 1% 6% 4%;
-    background-color: hsl(179, 62%, 43%);
-    width: 50%;
-    border-bottom-left-radius: 5px;
-}
+
 button {
-    padding: 4% 37% 4%;
+    padding: 2% 37% 2%;
     color: white;
     background: hsl(71, 73%, 54%);
     border: 1px solid transparent;
     border-radius: 4px;
-    font-size: x-small;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 400;
 }
-button:hover{
+
+
+button:hover {
     background: white;
     border: 1px solid hsl(71, 73%, 54%);
     color: hsl(71, 73%, 54%);
 }
-.box3 h5{
-    font-weight: 700;  
-    font-size: 13.8px; 
-    color: #fff;
-}
+
 .box3 {
-    display: block;
-    padding: 1% 6% 4%;
+    padding: 0% 6% 2%;
     background-color: hsl(172, 72%, 54%);
     width: 50%;
-    font-size: 8px;
+    font-size: 1rem;
     font-weight: 400;
     color: rgba(250, 245, 245, 0.767);
     line-height: 1.5;
-    border-bottom-right-radius: 5px;
 }
-footer{
+
+.box3 h5 {
+    line-height: 0.04;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+footer {
     text-align: center;
-}
+} 
